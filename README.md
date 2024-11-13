@@ -1,4 +1,4 @@
-[<img src="https://s.iimg.su/s/13/UajxnD2pZNkqisHuJq3GVF7cKbRs2yaOyEjbAsRM.png" alt="Everwood" width="1764" align="center">](https://github.com/AtaraxiaSpaceFoundation/Everwood-14)
+[<img src="https://s.iimg.su/s/13/UajxnD2pZNkqisHuJq3GVF7cKbRs2yaOyEjbAsRM.png" alt="Everwood" width="720" height="360" align="center">](https://github.com/AtaraxiaSpaceFoundation/Everwood-14)
 
 ---
 
