@@ -3,7 +3,9 @@
 # Описание PR
 <!-- Опишите здесь ваш Pull Request (PR). Что он изменяет? На что еще это может повлиять? -->
 
----
+
+
+[<img src="https://s.iimg.su/s/13/lO1hKUDag3Rv81n0HvrnvuxqQCwO8u4JJO9XniIX.png" alt="EverwoodDivider" height="50" align="center">](https://github.com/AtaraxiaSpaceFoundation/Everwood-14)
 
 ## Медиа
 <!-- Добавьте скриншоты/видео, для демонстрации вашего PR. Если ваш PR представляет собой визуальное изменение, добавьте скриншоты, иначе он может быть закрыт. -->
@@ -16,15 +18,7 @@
 </p>
 </details>
 
----
-
-<!-- Место для вашего чек-листа, здесь можно составить список, к примеру того, что вы хотите сделать.
-## Чек-лист
-
-- [x] Я сделаю хорошее
--->
-
----
+[<img src="https://s.iimg.su/s/13/lO1hKUDag3Rv81n0HvrnvuxqQCwO8u4JJO9XniIX.png" alt="EverwoodDivider" height="50" align="center">](https://github.com/AtaraxiaSpaceFoundation/Everwood-14)
 
 ## Тип PR
 <!-- Подходите ответственно к пометке этих пунктов, для этого необходимо поставить английскую "x" между квадратных скобок -->
@@ -37,11 +31,11 @@
 - [ ] Translate
 - [ ] Resprite
 
----
+[<img src="https://s.iimg.su/s/13/lO1hKUDag3Rv81n0HvrnvuxqQCwO8u4JJO9XniIX.png" alt="EverwoodDivider" height="50" align="center">](https://github.com/AtaraxiaSpaceFoundation/Everwood-14)
 
 # Изменения
 
-[<img src="https://s.iimg.su/s/13/UajxnD2pZNkqisHuJq3GVF7cKbRs2yaOyEjbAsRM.png" alt="Everwood" width="310" height="160" align="right">](https://github.com/AtaraxiaSpaceFoundation/Everwood-14)
+[<img src="https://s.iimg.su/s/13/lMzIC7EIejJHZwgx4UHMKyjuqYscEF6qDUsRrBlL.png" alt="Everwood" width="160" height="160" align="right">](https://github.com/AtaraxiaSpaceFoundation/Everwood-14)
 
 <!--
 Здесь вы можете написать список изменений, который будет автоматически добавлен в игру, когда ваш PR будет принят
