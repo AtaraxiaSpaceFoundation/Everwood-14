@@ -2,22 +2,19 @@
 
 ---
 
-WWDP - форк Einstein Engines, представляющего из себя хард-форк  [Space Station 14](https://github.com/space-wizards/space-station-14), построенный на идеалах и дизайнерском вдохновении семейства серверов BayStation 12 от Space Station 13 с упором на модульный код, который каждый может использовать для создания RP-сервера своей мечты.
-
-WWDP - один из основных серверов русского коммьюнити, который выступает за идеалы свободы отыгрыша, свободы слова и настоящей классической атмосферы Space Station 13 - хаос, веселье, возможности.
+Everwood - это форк [WWDP](https://github.com/WWhiteDreamProject/wwdpublic), ориентирующийся на идеи из Space Station 13, включая свои собственные.
 
 Space Station 14 - это ремейк SS13, который работает на собственном движке  [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), собственном игровом движке, написанном на C#.
 
-Поскольку это хард-форк, любой код, взятый из другого апстрима, не может быть напрямую замержен сюда, а должен быть перенесен.
-Весь код, представленный в этом репозитории, может быть изменен по желанию кодербаса Белой Мечты.
-
 ## Ссылки
 
+[<img src="https://i.imgur.com/XiS9QP5.png" alt="ASF" width="150" align="left">](https://github.com/AtaraxiaSpaceFoundation)
+**Ataraxia Space Foundation**<br>Специализируемся на разработке этого билда.
+
+[<img src="https://i.imgur.com/xMzKtYK.png" alt="Discord" width="150" align="left">](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+**Discord Server**<br>В космосе вас никто не услышит.
+
 [Steam](https://store.steampowered.com/app/2585480/Space_Station_Multiverse/) | [Клиент без Steam](https://spacestationmultiverse.com/downloads/) | [Основной репозиторий](https://github.com/Simple-Station/Einstein-Engines)
-
-## Контрибуция
-
-В процессе разработки, ожидайте новостей!
 
 ## Сборка
 
