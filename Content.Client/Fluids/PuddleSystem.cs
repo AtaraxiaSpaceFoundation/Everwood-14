@@ -4,12 +4,15 @@ using Content.Shared.Fluids;
 using Content.Shared.Fluids.Components;
 using Robust.Client.GameObjects;
 using Robust.Shared.Map;
+using Robust.Shared.Maths; // Everwood
+using Robust.Shared.Random; // Everwood
 
 namespace Content.Client.Fluids;
 
 public sealed class PuddleSystem : SharedPuddleSystem
 {
     [Dependency] private readonly IconSmoothSystem _smooth = default!;
+    [Dependency] private readonly IRobustRandom _random = default!; // Everwood
 
     public override void Initialize()
     {
@@ -30,6 +33,13 @@ public sealed class PuddleSystem : SharedPuddleSystem
             volume = (float) volumeObj;
         }
 
+        // Everwood
+        if (TryComp<SpriteComponent>(uid, out var sprite))
+        {
+            RandomizeRotation(sprite);
+        }
+
+        /* Everwood REMOVE | Legacy Puddle
         // Update smoothing and sprite based on volume.
         if (TryComp<IconSmoothComponent>(uid, out var smooth))
         {
@@ -53,6 +63,7 @@ public sealed class PuddleSystem : SharedPuddleSystem
                 }
             }
         }
+        */
 
         var baseColor = Color.White;
 
@@ -100,4 +111,12 @@ public sealed class PuddleSystem : SharedPuddleSystem
     }
 
     #endregion Spill
+
+    // Everwood Start
+    private void RandomizeRotation(SpriteComponent sprite)
+        {
+            float rotationDegrees = _random.Next(0, 359); // Randomly select a rotation for puddle sprite.
+            sprite.Rotation = Angle.FromDegrees(rotationDegrees); // Sets the sprite rotation to the one we randomly selected.
+        }
+    // Everwood End
 }
