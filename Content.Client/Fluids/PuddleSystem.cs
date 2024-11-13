@@ -25,19 +25,14 @@ public sealed class PuddleSystem : SharedPuddleSystem
     {
         if (args.Sprite == null)
             return;
-
+        /* Everwood REMOVE | Legacy Puddle
         var volume = 1f;
 
         if (args.AppearanceData.TryGetValue(PuddleVisuals.CurrentVolume, out var volumeObj))
         {
             volume = (float) volumeObj;
         }
-
-        // Everwood
-        if (TryComp<SpriteComponent>(uid, out var sprite))
-        {
-            RandomizeRotation(sprite);
-        }
+        */
 
         /* Everwood REMOVE | Legacy Puddle
         // Update smoothing and sprite based on volume.
@@ -64,6 +59,12 @@ public sealed class PuddleSystem : SharedPuddleSystem
             }
         }
         */
+
+        // Everwood
+        if (TryComp<SpriteComponent>(uid, out var sprite))
+        {
+            RandomizeRotation(sprite);
+        }
 
         var baseColor = Color.White;
 
