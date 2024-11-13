@@ -1,6 +1,4 @@
-[<img src="https://s.iimg.su/s/13/UajxnD2pZNkqisHuJq3GVF7cKbRs2yaOyEjbAsRM.png" alt="Everwood" width="720" height="360" align="center">](https://github.com/AtaraxiaSpaceFoundation/Everwood-14)
-
----
+[<img src="https://s.iimg.su/s/13/UajxnD2pZNkqisHuJq3GVF7cKbRs2yaOyEjbAsRM.png" alt="Everwood" width="420" height="220" align="right">](https://github.com/AtaraxiaSpaceFoundation/Everwood-14)
 
 Everwood - это форк [WWDP](https://github.com/WWhiteDreamProject/wwdpublic), ориентирующийся на идеи из Space Station 13, включая свои собственные.
 
