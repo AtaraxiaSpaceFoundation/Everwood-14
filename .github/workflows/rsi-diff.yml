@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.6.0
         with:
-          token: ${{ secrets.token }}
+          token: ${{ secrets.TOKEN }}
 
       - name: Get changed files
         id: files

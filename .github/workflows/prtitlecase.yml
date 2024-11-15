@@ -4,7 +4,7 @@ on:
     types: [opened, edited, synchronize]
 
 env:
-  GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
   PR_NUMBER: ${{ github.event.pull_request.number }}
 
 jobs:
@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Master
-        uses: actions/checkout@v3.6.0
+        uses: actions/checkout@v3
         with:
-          token: ${{ secrets.token }}
+          token: ${{ secrets.TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v3
