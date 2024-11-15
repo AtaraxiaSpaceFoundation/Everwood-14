@@ -117,12 +117,26 @@
   - type: Transform
     noRot: true
     anchored: true
-  - type: Sprite
+  - type: Sprite # Everwood-EDIT Start
+    sprite: _Everwood/Fluids/puddle.rsi
     layers:
-    - sprite: Fluids/puddle.rsi
-      state: splat0
+      - state: puddle-0
     drawdepth: FloorObjects
     color: "#FFFFFF80"
+  - type: RandomSprite
+    available:
+      - 0:
+          puddle-0: ""
+          puddle-1: ""
+          puddle-2: ""
+          puddle-3: ""
+          puddle-4: ""
+          puddle-5: ""
+          puddle-6: ""
+          puddle-7: ""
+          puddle-8: ""
+          puddle-9: ""
+          puddle-10: "" # Everwood-EDIT End
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -136,10 +150,10 @@
         layer:
         - SlipLayer
         hard: false
-  - type: IconSmooth
-    key: puddles
-    base: splat
-    mode: CardinalFlags
+#  - type: IconSmooth # Everwood - Legacy Puddles
+#    key: puddles
+#    base: splat
+#    mode: CardinalFlags
   - type: SolutionContainerManager
     solutions:
       puddle:
