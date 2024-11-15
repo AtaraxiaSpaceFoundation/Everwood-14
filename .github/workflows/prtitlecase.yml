@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Master
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.6.0
         with:
-          token: ${{ secrets.BOT_TOKEN }}
+          token: ${{ secrets.token }}
 
       - name: Setup Node
         uses: actions/setup-node@v3
