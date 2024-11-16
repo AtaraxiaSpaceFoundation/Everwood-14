@@ -22,8 +22,16 @@ public sealed partial class MainMenuControl : Control
         LayoutContainer.SetMarginTop(VBox, 30);
         LayoutContainer.SetGrowHorizontal(VBox, LayoutContainer.GrowDirection.Begin);
 
+        /* Everwood REMOVE
         var logoTexture = resCache.GetResource<TextureResource>("/Textures/_White/Logo/icon/icon-256x256.png"); // WD EDIT
         Logo.Texture = logoTexture;
+        */
+
+        var borderUpTexture = resCache.GetResource<TextureResource>("/Textures/_Everwood/Logo/border_up.png"); // Everwood
+        BorderUp.Texture = borderUpTexture;
+
+        var borderDownTexture = resCache.GetResource<TextureResource>("/Textures/_Everwood/Logo/border_down.png"); // Everwood
+        BorderDown.Texture = borderDownTexture;
 
         var currentUserName = configMan.GetCVar(CVars.PlayerName);
         UsernameBox.Text = currentUserName;
