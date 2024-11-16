@@ -1,3 +1,15 @@
 - type: animatedLobbyScreen
   id: EverwoodPickaxeLobbyScreen
   path: /Textures/_Everwood/LobbyScreens/pickaxe.rsi
+
+- type: animatedLobbyScreen
+  id: EverwoodCrownLobbyScreen
+  path: /Textures/_Everwood/LobbyScreens/crown.rsi
+
+- type: animatedLobbyScreen
+  id: EverwoodGhostLobbyScreen
+  path: /Textures/_Everwood/LobbyScreens/ghost.rsi
+
+- type: animatedLobbyScreen
+  id: EverwoodStatueLobbyScreen
+  path: /Textures/_Everwood/LobbyScreens/statue.rsi
