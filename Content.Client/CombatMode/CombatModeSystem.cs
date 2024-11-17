@@ -6,6 +6,12 @@ using Robust.Client.Graphics;
 using Robust.Client.Input;
 using Robust.Client.Player;
 using Robust.Shared.Configuration;
+using Robust.Client.GameObjects;
+using Content.Shared.StatusIcon.Components;
+using Content.Client.Actions;
+using System.Numerics;
+using Robust.Shared.GameObjects;
+using Robust.Shared.Utility;
 
 namespace Content.Client.CombatMode;
 
@@ -21,14 +27,17 @@ public sealed class CombatModeSystem : SharedCombatModeSystem
     /// Raised whenever combat mode changes.
     /// </summary>
     public event Action<bool>? LocalPlayerCombatModeUpdated;
+    private EntityQuery<SpriteComponent> _spriteQuery; // Everwood
 
     public override void Initialize()
     {
         base.Initialize();
 
         SubscribeLocalEvent<CombatModeComponent, AfterAutoHandleStateEvent>(OnHandleState);
-
+        SubscribeLocalEvent<CombatModeComponent, GetStatusIconsEvent>(UpdateCombatModeIndicator); // Everwood EDIT
         Subs.CVar(_cfg, CCVars.CombatModeIndicatorsPointShow, OnShowCombatIndicatorsChanged, true);
+
+        _spriteQuery = GetEntityQuery<SpriteComponent>(); // Everwood
     }
 
     private void OnHandleState(EntityUid uid, CombatModeComponent component, ref AfterAutoHandleStateEvent args)
@@ -91,4 +100,27 @@ public sealed class CombatModeSystem : SharedCombatModeSystem
             _overlayManager.RemoveOverlay<CombatModeIndicatorsOverlay>();
         }
     }
+
+    // Everwood START
+    private void UpdateCombatModeIndicator(EntityUid uid, CombatModeComponent comp, ref GetStatusIconsEvent _)
+    {
+        if (!_spriteQuery.TryComp(uid, out var sprite))
+            return;
+
+        if (comp.IsInCombatMode)
+        {
+            if (!sprite.LayerMapTryGet("combat_mode_indicator", out var layer))
+            {
+                layer = sprite.AddLayer(new SpriteSpecifier.Rsi(new ResPath("_Everwood/Effects/combat_mode.rsi"), "combat_mode"));
+                sprite.LayerMapSet("combat_mode_indicator", layer);
+            }
+        }
+        else
+        {
+            if (sprite.LayerMapTryGet("combat_mode_indicator", out var layerToRemove))
+            {
+                sprite.RemoveLayer(layerToRemove);
+            }
+        }
+    } // Everwood END
 }
