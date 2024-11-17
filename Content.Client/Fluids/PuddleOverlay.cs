@@ -27,7 +27,7 @@ public sealed class PuddleOverlay : Overlay
         IoCManager.InjectDependencies(this);
         _debugOverlaySystem = _entitySystemManager.GetEntitySystem<PuddleDebugOverlaySystem>();
         var cache = IoCManager.Resolve<IResourceCache>();
-        _font = new VectorFont(cache.GetResource<FontResource>("/Fonts/NotoSans/NotoSans-Regular.ttf"), 8);
+        _font = new VectorFont(cache.GetResource<FontResource>("/Fonts/_Everwood/medieval.ttf"), 8); // Everwood EDIT
     }
 
     protected override void Draw(in OverlayDrawArgs args)

@@ -35,7 +35,7 @@ public sealed partial class SpeechVerbPrototype : IPrototype
     /// </summary>
     /// font proto is client only so cant lint this lol sorry
     [DataField("fontId")]
-    public string FontId = "Default";
+    public string FontId = "Supernatural"; // Everwood EDIT
 
     /// <summary>
     ///     If multiple applicable speech verb protos are found (i.e. through speech suffixes) this will determine

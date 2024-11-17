@@ -9,7 +9,7 @@ namespace Content.Client.Access;
 
 public sealed class AccessOverlay : Overlay
 {
-    private const string TextFontPath = "/Fonts/NotoSans/NotoSans-Regular.ttf";
+    private const string TextFontPath = "/Fonts/_Everwood/medieval.ttf";  // Everwood EDIT
     private const int TextFontSize = 12;
 
     private readonly IEntityManager _entityManager;

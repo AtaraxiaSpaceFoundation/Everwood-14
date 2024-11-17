@@ -19,8 +19,8 @@ public sealed partial class LoadingScreenControl : Control
         RobustXamlLoader.Load(this);
 
         LayoutContainer.SetAnchorPreset(this, LayoutContainer.LayoutPreset.Wide);
-        Header.FontOverride = resCache.GetFont("/Fonts/NotoSansDisplay/NotoSansDisplay-Bold.ttf", 24);
-        Subtext.FontOverride = resCache.GetFont("/Fonts/NotoSansDisplay/NotoSansDisplay-Bold.ttf", 12);
+        Header.FontOverride = resCache.GetFont("/Fonts/_Everwood/medieval.ttf", 24); // Everwood EDIT
+        Subtext.FontOverride = resCache.GetFont("/Fonts/_Everwood/medieval.ttf", 12); // Everwood EDIT
 
         SpriteLeft.SetFromSpriteSpecifier(Sprite);
         SpriteRight.SetFromSpriteSpecifier(Sprite);
