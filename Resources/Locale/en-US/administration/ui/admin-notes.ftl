@@ -27,7 +27,7 @@ admin-notes-message-desc = [color=white]You have received { $count ->
     [1] an administrative message
     *[other] administrative messages
 } since the last time you played on this server.[/color]
-admin-notes-message-admin = From [bold]{ $admin }[/bold], written on { TOSTRING($date, "f") }:
+admin-notes-message-admin = From [Tannenberg]{ $admin }[/Tannenberg], written on { TOSTRING($date, "f") }:
 admin-notes-message-wait = The accept button will be enabled after {$time} seconds.
 admin-notes-message-accept = Dismiss permanently
 admin-notes-message-dismiss = Dismiss for now

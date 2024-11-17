@@ -1,4 +1,12 @@
 - type: font
+  id: TolkienCyr
+  path: /Fonts/_Everwood/tolkiencyr.otf
+
+- type: font
+  id: Tannenberg
+  path: /Fonts/_Everwood/tannenberg.otf
+
+- type: font
   id: FallenAngel
   path: /Fonts/_Everwood/fallenangel.otf
 

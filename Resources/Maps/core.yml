@@ -105741,13 +105741,13 @@ entities:
 
         During the production of this station we have overlooked this substation, and as a result does not power any APCs.
 
-        [italic]Please pretend that this was not an oversight, but instead an intended decision.[/italic]
+        [TolkienCyr]Please pretend that this was not an oversight, but instead an intended decision.[/TolkienCyr]
 
 
         It is now a spare substation for any case where a substation or APC becomes damaged or wears out over time.
 
 
-        [italic]Best wishes, [bold]NanoTrasen Technical Build Team.[/bold][/italic]
+        [TolkienCyr]Best wishes, [bold]NanoTrasen Technical Build Team.[/bold][/TolkienCyr]
   - uid: 21554
     components:
     - type: Transform
@@ -105769,7 +105769,7 @@ entities:
       - stampedColor: '#00BE00FF'
         stampedName: stamp-component-stamped-name-approved
       content: >+
-        [italic]Please make sure that the air alarm is not on auto configuration before proceeding.[/italic]
+        [TolkienCyr]Please make sure that the air alarm is not on auto configuration before proceeding.[/TolkienCyr]
 
         [bold]As the air alarm is currently not set up, please follow these basic setup instructions:[/bold]
 

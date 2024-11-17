@@ -26,7 +26,7 @@
     <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Encryption key"/>
   </Box>
 
-  IPCs do [bold]not[/bold] use external radios because they already have one built in. They only need to get an encryption key from a radio. By clicking on an IPC with a [color=yellow]wire cutter[/color], you can remove their keys.
+  IPCs do [Tannenberg]not[/Tannenberg] use external radios because they already have one built in. They only need to get an encryption key from a radio. By clicking on an IPC with a [color=yellow]wire cutter[/color], you can remove their keys.
   You can find new keys around the station or remove one from a sector radio using a [color=yellow]screwdriver[/color].
 
   ## Repairing

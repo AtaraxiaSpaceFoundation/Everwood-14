@@ -1,6 +1,6 @@
 health-examinable-selfaware-none = You feel healthy and well.
 
-health-examinable-selfaware-type-text = You have {$damageType}, around [bold]{$amount}[/bold].
+health-examinable-selfaware-type-text = You have {$damageType}, around [Tannenberg]{$amount}[/Tannenberg].
 
 health-examinable-selfaware-type-Blunt = [color=red]Blunt[/color] trauma
 health-examinable-selfaware-type-Slash = [color=red]Slash[/color] wounds

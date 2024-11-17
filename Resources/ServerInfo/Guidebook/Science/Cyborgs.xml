@@ -1,6 +1,6 @@
 <Document>
   # Cyborgs
-  Cyborgs are man-machine hybrids, purpose-built by the [textlink="robotics"  link="Robotics"] division of science for various duties across the station. Bound by strictly-followed [color=cyan]silicon laws[/color], they serve the crew unconditionally. [italic](Most of the time.)[italic]
+  Cyborgs are man-machine hybrids, purpose-built by the [textlink="robotics"  link="Robotics"] division of science for various duties across the station. Bound by strictly-followed [color=cyan]silicon laws[/color], they serve the crew unconditionally. [TolkienCyr](Most of the time.)[TolkienCyr]
 
   ## Basic Components
   <Box>
@@ -29,9 +29,9 @@
     <GuideEntityEmbed Entity="BorgChassisMedical" Caption="Medical"/>
   </Box>
   <Box>
-    [italic]Examples of various cyborg chassis[/italic]
+    [TolkienCyr]Examples of various cyborg chassis[/TolkienCyr]
   </Box>
-  If you wish to change the chassis of an already existing cyborg, you have to construct a whole new one, limbs and frame included. The brain, power cell and modules [italic](if it can fit in the new chassis,)[/italic] can be carried over from the old chassis, if desired.
+  If you wish to change the chassis of an already existing cyborg, you have to construct a whole new one, limbs and frame included. The brain, power cell and modules [TolkienCyr](if it can fit in the new chassis,)[/TolkienCyr] can be carried over from the old chassis, if desired.
 
   ## Modules
   <Box>
@@ -39,17 +39,17 @@
   </Box>
   A cyborg isn't able to do much without [color=#a4885c]modules[/color]. These printed circuit boards are specific to cyborgs and grant additional functionality to them. They are printed at the [color=#a4885c]Exosuit Fabricator[/color].
 
-  [color=#a4885c]Generic[/color] modules add versatility. They can be fitted into any chassis, granting useful tools such as crowbars, GPS, and the ability to interact with cables. [bold]The generic borg chassis can fit up to 6 modules in total.[/bold]
+  [color=#a4885c]Generic[/color] modules add versatility. They can be fitted into any chassis, granting useful tools such as crowbars, GPS, and the ability to interact with cables. [Tannenberg]The generic borg chassis can fit up to 6 modules in total.[/Tannenberg]
   <Box>
     <GuideEntityEmbed Entity="BorgModuleCable" Caption="Cable"/>
     <GuideEntityEmbed Entity="BorgModuleGPS" Caption="GPS"/>
     <GuideEntityEmbed Entity="BorgModuleFireExtinguisher" Caption="Fire Extinguisher"/>
   </Box>
   <Box>
-    [italic]Examples of generic modules[/italic]
+    [TolkienCyr]Examples of generic modules[/TolkienCyr]
   </Box>
 
-  For more specific needs, [color=#a4885c]specialized[/color] modules are available, granting capabilities like scanning anomalies, constructing walls, reviving crew mates, or cleaning a space lube spill. These modules are typically colored with the same palette as the department [italic](or occupation)[/italic] they relate to. These modules [italic](with exception to [color=#D381C9]science[/color] modules, which can fit any chassis,)[/italic] can only be fitted in their associated borg chassis. [bold]The specialized borg chassis, being the engineering, janitorial, service, medical, and mining chassis, can fit up to 4 modules.[/bold]
+  For more specific needs, [color=#a4885c]specialized[/color] modules are available, granting capabilities like scanning anomalies, constructing walls, reviving crew mates, or cleaning a space lube spill. These modules are typically colored with the same palette as the department [TolkienCyr](or occupation)[/TolkienCyr] they relate to. These modules [TolkienCyr](with exception to [color=#D381C9]science[/color] modules, which can fit any chassis,)[/TolkienCyr] can only be fitted in their associated borg chassis. [Tannenberg]The specialized borg chassis, being the engineering, janitorial, service, medical, and mining chassis, can fit up to 4 modules.[/Tannenberg]
   <Box>
     <GuideEntityEmbed Entity="BorgModuleAnomaly" Caption="Anomaly"/>
     <GuideEntityEmbed Entity="BorgModuleRCD" Caption="RCD"/>
@@ -59,7 +59,7 @@
     <GuideEntityEmbed Entity="BorgModuleTreatment" Caption="Treatment"/>
   </Box>
   <Box>
-    [italic]Examples of specialized modules. Note the housing and circuit board colors.
+    [TolkienCyr]Examples of specialized modules. Note the housing and circuit board colors.
   </Box>
   Additional modules with advanced or novel capabilities can be acquired through new [textlink="technologies"  link="Technologies"] researched by scientists.
 </Document>

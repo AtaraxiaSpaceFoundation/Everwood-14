@@ -15,5 +15,5 @@ bounty-console-id-label = ID#{$id}
 bounty-console-flavor-left = Bounties sourced from local unscrupulous dealers.
 bounty-console-flavor-right = v1.4
 
-bounty-manifest-header = [font size=14][bold]Official cargo bounty manifest[/bold] (ID#{$id})[/font]
+bounty-manifest-header = [font size=14][Tannenberg]Official cargo bounty manifest[/Tannenberg] (ID#{$id})[/font]
 bounty-manifest-list-start = Item manifest:

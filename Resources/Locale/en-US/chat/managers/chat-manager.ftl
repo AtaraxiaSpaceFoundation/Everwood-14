@@ -18,19 +18,19 @@ chat-manager-no-radio-key = No radio key specified!
 chat-manager-no-such-channel = There is no channel with key '{$key}'!
 chat-manager-whisper-headset-on-message = You can't whisper on the radio!
 
-chat-manager-server-wrap-message = [bold]{$message}[/bold]
-chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} Announcement:[/font][font size=12]
-                                                {$message}[/bold][/font]
+chat-manager-server-wrap-message = [Tannenberg]{$message}[/Tannenberg]
+chat-manager-sender-announcement-wrap-message = [font size=14][Tannenberg]{$sender} Announcement:[/font][font size=12]
+                                                {$message}[/Tannenberg][/font]
 chat-manager-entity-say-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, "[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}]{$message}[/color][/font][/BubbleContent]"
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, "[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}][bold]{$message}[/bold][/color][/font][/BubbleContent]"
+chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, "[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}][Tannenberg]{$message}[/Tannenberg][/color][/font][/BubbleContent]"
 
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] whispers, "[BubbleContent][font="{$fontType}"][color={$color}]{$message}[/color][/font][/BubbleContent]"[/italic][/font]
-chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Someone[/BubbleHeader] whispers, "[BubbleContent][font="{$fontType}"][color={$color}]{$message}[/color][/font][/BubbleContent]"[/italic][/font]
+chat-manager-entity-whisper-wrap-message = [font size=11][TolkienCyr][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] whispers, "[BubbleContent][font="{$fontType}"][color={$color}]{$message}[/color][/font][/BubbleContent]"[/TolkienCyr][/font]
+chat-manager-entity-whisper-unknown-wrap-message = [font size=11][TolkienCyr][BubbleHeader]Someone[/BubbleHeader] whispers, "[BubbleContent][font="{$fontType}"][color={$color}]{$message}[/color][/font][/BubbleContent]"[/TolkienCyr][/font]
 
 # THE() is not used here because the entity and its name can technically be disconnected if a nameOverride is passed...
-chat-manager-entity-me-wrap-message = [italic]{ PROPER($entity) ->
-    *[false] the {$entityName} {$message}[/italic]
-     [true] {$entityName} {$message}[/italic]
+chat-manager-entity-me-wrap-message = [TolkienCyr]{ PROPER($entity) ->
+    *[false] the {$entityName} {$message}[/TolkienCyr]
+     [true] {$entityName} {$message}[/TolkienCyr]
     }
 
 chat-manager-entity-looc-wrap-message = LOOC: {$entityName}: {$message}
@@ -40,7 +40,7 @@ chat-manager-send-ooc-patron-wrap-message = OOC: [color={$patronColor}]{$playerN
 chat-manager-send-dead-chat-wrap-message = {$deadChannelName}: [BubbleHeader]{$playerName}[/BubbleHeader]: [BubbleContent]{$message}[/BubbleContent]
 chat-manager-send-admin-dead-chat-wrap-message = {$adminChannelName}: ([BubbleHeader]{$userName}[/BubbleHeader]): [BubbleContent]{$message}[/BubbleContent]
 chat-manager-send-admin-chat-wrap-message = {$adminChannelName}: {$playerName}: {$message}
-chat-manager-send-admin-announcement-wrap-message = [bold]{$adminChannelName}: {$message}[/bold]
+chat-manager-send-admin-announcement-wrap-message = [Tannenberg]{$adminChannelName}: {$message}[/Tannenberg]
 
 chat-manager-send-hook-ooc-wrap-message = OOC: (D){$senderName}: {$message}
 

@@ -81,7 +81,7 @@ public sealed partial class GuideTechnologyEmbed : BoxContainer, IDocumentTag, I
     {
         var discipline = _prototype.Index(technology.Discipline);
 
-        NameLabel.SetMarkup($"[bold]{Loc.GetString(technology.Name)}[/bold]");
+        NameLabel.SetMarkup($"[Tannenberg]{Loc.GetString(technology.Name)}[/Tannenberg]");
         DescriptionLabel.SetMessage(_research.GetTechnologyDescription(technology, includePrereqs: true, disciplinePrototype: discipline));
         TechTexture.Texture = _sprite.Frame0(technology.Icon);
 

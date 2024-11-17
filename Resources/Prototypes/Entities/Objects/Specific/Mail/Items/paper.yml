@@ -281,7 +281,7 @@
 
       ENCLOSED IS A SELECTION OF HYGIENE PRODUCTS SUITABLE FOR USE BY ORGANICS. WE HOPE THAT THIS SITUATION IS RESOLVED PROMPTLY.
 
-      [italic]THIS IS AN AUTOMATED MESSAGE. DO NOT REPLY.[/italic]
+      [TolkienCyr]THIS IS AN AUTOMATED MESSAGE. DO NOT REPLY.[/TolkienCyr]
 
 - type: entity
   id: PaperMailNTConscript
@@ -325,7 +325,7 @@
       [head=2]May you write well, neatly, and with style.[/head]
 
             [head=3]Sincerely,
-               [italic]The Frontier Paper Pusher's Club[/italic][/head]
+               [TolkienCyr]The Frontier Paper Pusher's Club[/TolkienCyr][/head]
 
 - type: entity
   id: PaperMailNFPetBedAssemblyManual
@@ -339,11 +339,11 @@
       
       [head=1]HÖGANÄS[/head]
 
-      [italic](There is a black and white picture of a pet bed on the first page.)[/italic]
+      [TolkienCyr](There is a black and white picture of a pet bed on the first page.)[/TolkienCyr]
 
-      [italic](On the next few pages, you see a list of materials and a happy stick figure assembling furniture.)[/italic]
+      [TolkienCyr](On the next few pages, you see a list of materials and a happy stick figure assembling furniture.)[/TolkienCyr]
 
-      [italic](On the pages after that, you see a set of instructions to assemble a pet bed. You're sure you don't need them, how hard could it be?)[/italic]
+      [TolkienCyr](On the pages after that, you see a set of instructions to assemble a pet bed. You're sure you don't need them, how hard could it be?)[/TolkienCyr]
 
 - type: entity
   id: PaperMailNTBoxer
@@ -480,4 +480,4 @@
 
 
 
-                              [head=3][italic]Internal Bureau of Propaganda[/italic][/head]
+                              [head=3][TolkienCyr]Internal Bureau of Propaganda[/TolkienCyr][/head]
