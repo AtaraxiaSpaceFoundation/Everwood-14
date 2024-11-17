@@ -81,10 +81,10 @@ public sealed partial class CrimeAssistUiFragment : BoxContainer
                 _ => "#ff00ff"
             };
 
-            Title.SetMarkup("\n[bold][font size=23][color=#a4885c]" + Loc.GetString(page.LocKeyTitle!) + "[/color][/font][/bold]");
+            Title.SetMarkup("\n[Tannenberg][font size=23][color=#a4885c]" + Loc.GetString(page.LocKeyTitle!) + "[/color][/font][/Tannenberg]");
             Subtitle.SetMarkup($"\n[font size=19][color={color}]" + Loc.GetString(page.LocKeySeverity!) + "[/color][/font]");
             Explanation.SetMarkup("\n[title]" + Loc.GetString(page.LocKeyDescription!) + "[/title]\n");
-            Punishment.SetMarkup("[bold][font size=15]" + Loc.GetString(page.LocKeyPunishment!) + "[/font][/bold]");
+            Punishment.SetMarkup("[Tannenberg][font size=15]" + Loc.GetString(page.LocKeyPunishment!) + "[/font][/Tannenberg]");
         }
     }
 

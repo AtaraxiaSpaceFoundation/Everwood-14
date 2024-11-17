@@ -33,7 +33,7 @@ public sealed class BiomeDebugOverlay : Overlay
         _biomes = _entManager.System<BiomeSystem>();
         _maps = _entManager.System<SharedMapSystem>();
 
-        _font = new VectorFont(_cache.GetResource<FontResource>("/EngineFonts/NotoSans/NotoSans-Regular.ttf"), 12);
+        _font = new VectorFont(_cache.GetResource<FontResource>("/Fonts/_Everwood/supernatural.ttf"), 12); // Everwood EDIT
     }
 
     protected override bool BeforeDraw(in OverlayDrawArgs args)

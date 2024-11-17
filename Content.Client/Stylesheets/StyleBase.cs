@@ -16,7 +16,7 @@ namespace Content.Client.Stylesheets
         public const string ClassLowDivider = "LowDivider";
         public const string StyleClassLabelHeading = "LabelHeading";
         public const string StyleClassLabelSubText = "LabelSubText";
-        public const string StyleClassItalic = "Italic";
+        public const string StyleClassItalic = "Supernatural"; // Everwood EDIT
 
         public const string ClassAngleRect = "AngleRect";
 
@@ -49,9 +49,7 @@ namespace Content.Client.Stylesheets
             (
                 new []
                 {
-                    "/Fonts/NotoSans/NotoSans-Regular.ttf",
-                    "/Fonts/NotoSans/NotoSansSymbols-Regular.ttf",
-                    "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf"
+                    "/Fonts/_Everwood/supernatural.ttf" // Everwood EDIT
                 },
                 12
             );
@@ -59,9 +57,7 @@ namespace Content.Client.Stylesheets
             (
                 new []
                 {
-                    "/Fonts/NotoSans/NotoSans-Italic.ttf",
-                    "/Fonts/NotoSans/NotoSansSymbols-Regular.ttf",
-                    "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf"
+                    "/Fonts/_Everwood/supernatural.ttf" // Everwood EDIT
                 },
                 12
             );

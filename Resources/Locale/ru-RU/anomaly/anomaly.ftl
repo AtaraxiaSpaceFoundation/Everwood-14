@@ -25,7 +25,7 @@ anomaly-scanner-particle-containment = - [color=goldenrod]Сдерживающи
 anomaly-scanner-pulse-timer = Время до следующего импульса: [color=gray]{ $time }[/color]
 
 anomaly-gorilla-core-slot-name = Ядро аномалии
-anomaly-gorilla-charge-none = Внутри нет [bold]ядра аномалии[/bold].
+anomaly-gorilla-charge-none = Внутри нет [Tannenberg]ядра аномалии[/Tannenberg].
 anomaly-gorilla-charge-limit = Осталось [color={$count ->
         [3]green
         [2]yellow
@@ -38,7 +38,7 @@ anomaly-gorilla-charge-limit = Осталось [color={$count ->
         *[other]зарядов
     }[/color].
 
-anomaly-gorilla-charge-infinite = В нем [color=gold]неограниченое количество зарядов[/color]. [italic]Пока что...[/italic]
+anomaly-gorilla-charge-infinite = В нем [color=gold]неограниченое количество зарядов[/color]. [TolkienCyr]Пока что...[/TolkienCyr]
 
 anomaly-sync-connected = Аномалия успешно привязана
 anomaly-sync-disconnected = Соединение с аномалией было потеряно!

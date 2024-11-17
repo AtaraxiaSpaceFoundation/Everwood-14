@@ -1,0 +1,107 @@
+- type: font
+  id: TolkienCyr
+  path: /Fonts/_Everwood/tolkiencyr.otf
+
+- type: font
+  id: Tannenberg
+  path: /Fonts/_Everwood/tannenberg.otf
+
+- type: font
+  id: FallenAngel
+  path: /Fonts/_Everwood/fallenangel.otf
+
+- type: font
+  id: Supernatural
+  path: /Fonts/_Everwood/supernatural.ttf
+
+- type: font
+  id: Behrens
+  path: /Fonts/_Everwood/behrens.ttf
+
+- type: font
+  id: Malefissent
+  path: /Fonts/_Everwood/malefissent.ttf
+
+- type: font
+  id: Isabella
+  path: /Fonts/_Everwood/isabella.ttf
+
+- type: font
+  id: Paladin
+  path: /Fonts/_Everwood/paladin.ttf
+
+- type: font
+  id: Medieval
+  path: /Fonts/_Everwood/medieval.ttf
+
+- type: font
+  id: Lombardina
+  path: /Fonts/_Everwood/lombardina.ttf
+
+- type: font
+  id: Blackmoor
+  path: /Fonts/_Everwood/blackmoor.ttf
+
+- type: font
+  id: ChiselD
+  path: /Fonts/_Everwood/chiseld.ttf
+
+- type: font
+  id: SteveRegular
+  path: /Fonts/_Everwood/handwrite.ttf
+
+- type: font
+  id: Pterra
+  path: /Fonts/_Everwood/pterra.ttf
+
+- type: font
+  id: Haiku
+  path: /Fonts/_Everwood/languages/cat.ttf
+
+- type: font
+  id: KingthingsPetrock
+  path: /Fonts/_Everwood/languages/draconic.ttf
+
+- type: font
+  id: MasonAlternateRegular
+  path: /Fonts/_Everwood/languages/dwarf.ttf
+
+- type: font
+  id: Dauphin
+  path: /Fonts/_Everwood/languages/elf.ttf
+
+- type: font
+  id: SweetDreams
+  path: /Fonts/_Everwood/languages/fae.ttf
+
+- type: font
+  id: Nosfer
+  path: /Fonts/_Everwood/languages/hell.ttf
+
+- type: font
+  id: TimesNewRomanCursed
+  path: /Fonts/_Everwood/languages/orc.ttf
+
+- type: font
+  id: Arabolical
+  path: /Fonts/_Everwood/languages/sand.ttf
+
+- type: font
+  id: FriskyVapmpire
+  path: /Fonts/_Everwood/languages/undead.ttf
+
+- type: font
+  id: RosemaryRoman
+  path: /Fonts/_Everwood/book1.ttf
+
+- type: font
+  id: Benegraphic
+  path: /Fonts/_Everwood/book2.ttf
+
+- type: font
+  id: GoudyMediaevalDemiBold
+  path: /Fonts/_Everwood/book3.ttf
+
+- type: font
+  id: Friedolin
+  path: /Fonts/_Everwood/book4.ttf

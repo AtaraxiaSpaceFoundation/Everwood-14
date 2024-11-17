@@ -240,7 +240,7 @@ namespace Content.Client.Examine
             if (knowTarget)
             {
                 var itemName = FormattedMessage.RemoveMarkup(Identity.Name(target, EntityManager, player));
-                var labelMessage = FormattedMessage.FromMarkup($"[bold]{itemName}[/bold]");
+                var labelMessage = FormattedMessage.FromMarkup($"[Tannenberg]{itemName}[/Tannenberg]");
                 var label = new RichTextLabel();
                 label.SetMessage(labelMessage);
                 hBox.AddChild(label);
@@ -248,7 +248,7 @@ namespace Content.Client.Examine
             else
             {
                 var label = new RichTextLabel();
-                label.SetMessage(FormattedMessage.FromMarkup("[bold]???[/bold]"));
+                label.SetMessage(FormattedMessage.FromMarkup("[Tannenberg]???[/Tannenberg]"));
                 hBox.AddChild(label);
             }
 

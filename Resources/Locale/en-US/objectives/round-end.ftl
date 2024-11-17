@@ -15,4 +15,4 @@ objectives-with-objectives = {$custody}{$title} was a {$agent} who had the follo
 objectives-objective-success = {$objective} | [color={$markupColor}]Success![/color]
 objectives-objective-fail = {$objective} | [color={$markupColor}]Failure![/color] ({$progress}%)
 
-objectives-in-custody = [bold][color=red]| IN CUSTODY | [/color][/bold]
+objectives-in-custody = [Tannenberg][color=red]| IN CUSTODY | [/color][/Tannenberg]

@@ -30,9 +30,7 @@ namespace Content.Client.Stylesheets
             (
                 new []
                 {
-                    "/Fonts/NotoSans/NotoSans-Regular.ttf",
-                    "/Fonts/NotoSans/NotoSansSymbols-Regular.ttf",
-                    "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf"
+                    "/Fonts/_Everwood/supernatural.ttf" // Everwood EDIT
                 },
                 10
             );
@@ -40,9 +38,7 @@ namespace Content.Client.Stylesheets
             (
                 new []
                 {
-                    "/Fonts/NotoSans/NotoSans-Bold.ttf",
-                    "/Fonts/NotoSans/NotoSansSymbols-Regular.ttf",
-                    "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf"
+                    "/Fonts/_Everwood/supernatural.ttf" // Everwood EDIT
                 },
                 16
             );

@@ -114,9 +114,9 @@ crime-assist-crimepunishment-kidnapping = Punishment: Capital
 crime-assist-crimepunishment-sedition = Punishment: Capital
 crime-assist-crimepunishment-sexualharassment = Punishment: Capital
 crime-assist-sophont-explanation = A sophont is described as any entity with the capacity to display the following attributes:
-                                   • [bold]Sapience[/bold]: the entity possesses basic logic and problem-solving skills, or at a minimum some level of significant intelligence.
-                                   • [bold]Sentience[/bold]: the entity has the capacity to process an emotion or lack thereof, or at a minimum the ability to recognise its own pain.
-                                   • [bold]Self-awareness[/bold]: the entity is capable of altering its behaviour in a reasonable fashion as a result of stimuli, or at a minimum is capable of recognising its own sapience and sentience.
+                                   • [Tannenberg]Sapience[/Tannenberg]: the entity possesses basic logic and problem-solving skills, or at a minimum some level of significant intelligence.
+                                   • [Tannenberg]Sentience[/Tannenberg]: the entity has the capacity to process an emotion or lack thereof, or at a minimum the ability to recognise its own pain.
+                                   • [Tannenberg]Self-awareness[/Tannenberg]: the entity is capable of altering its behaviour in a reasonable fashion as a result of stimuli, or at a minimum is capable of recognising its own sapience and sentience.
                                    Any sophont is considered a legal person, regardless of origin or prior cognitive status. Much like any other intelligent organic, a sophont may press charges against crew and be tried for crimes.
 
 mail-metrics-program-name = MailMetrics

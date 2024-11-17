@@ -8,7 +8,7 @@ lathe-menu-search-filter = Filter:
 lathe-menu-amount = Amount:
 lathe-menu-material-display = {$material} ({$amount})
 lathe-menu-tooltip-display = {$amount} of {$material}
-lathe-menu-description-display = [italic]{$description}[/italic]
+lathe-menu-description-display = [TolkienCyr]{$description}[/TolkienCyr]
 lathe-menu-material-amount = { $amount ->
     [1] {NATURALFIXED($amount, 2)} {$unit}
     *[other] {NATURALFIXED($amount, 2)} {MAKEPLURAL($unit)}

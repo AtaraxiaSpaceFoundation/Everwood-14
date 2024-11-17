@@ -15,4 +15,4 @@ objectives-with-objectives = {$custody}{$title} был {$agent} с целями:
 objectives-objective-success = {$objective} | [color={$markupColor}]Успешно![/color]
 objectives-objective-fail = {$objective} | [color={$markupColor}]Неудачно![/color] ({$progress}%)
 
-objectives-in-custody = [bold][color=red]| В ЗАКЛЮЧЕНИИ | [/color][/bold]
+objectives-in-custody = [Tannenberg][color=red]| В ЗАКЛЮЧЕНИИ | [/color][/Tannenberg]

@@ -38,5 +38,5 @@ cult-cant-draw-rune = Нельзя рисовать руну в космосе.
 runes-window-title = Руны
 
 chat-manager-cult-channel-name = Культ
-chat-manager-send-cult-chat-wrap-message = [bold]\[{ $channelName }\] [BubbleHeader]{ $player }[/BubbleHeader]:[/bold] [BubbleContent]{ $message }[/BubbleContent]
+chat-manager-send-cult-chat-wrap-message = [Tannenberg]\[{ $channelName }\] [BubbleHeader]{ $player }[/BubbleHeader]:[/Tannenberg] [BubbleContent]{ $message }[/BubbleContent]
 hud-chatbox-select-channel-Cult = Культ

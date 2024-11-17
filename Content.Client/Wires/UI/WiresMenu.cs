@@ -151,8 +151,8 @@ namespace Content.Client.Wires.UI
 
             LayoutContainer.SetAnchorPreset(topContainerWrap, LayoutContainer.LayoutPreset.Wide);
 
-            var font = _resourceCache.GetFont("/Fonts/Boxfont-round/Boxfont Round.ttf", 13);
-            var fontSmall = _resourceCache.GetFont("/Fonts/Boxfont-round/Boxfont Round.ttf", 10);
+            var font = _resourceCache.GetFont("/Fonts/_Everwood/supernatural.ttf", 13); // Everwood EDIT
+            var fontSmall = _resourceCache.GetFont("/Fonts/_Everwood/supernatural.ttf", 10); // Everwood EDIT
 
             Button helpButton;
             var topRow = new BoxContainer
@@ -323,7 +323,7 @@ namespace Content.Client.Wires.UI
                     VerticalAlignment = VAlignment.Bottom,
                     HorizontalAlignment = HAlignment.Center,
                     Align = Label.AlignMode.Center,
-                    FontOverride = _resourceCache.GetFont("/Fonts/NotoSansDisplay/NotoSansDisplay-Bold.ttf", 12),
+                    FontOverride = _resourceCache.GetFont("/Fonts/_Everwood/supernatural.ttf", 12), // Everwood EDIT
                     FontColorOverride = Color.Gray,
                     ToolTip = letter.Name(),
                     MouseFilter = MouseFilterMode.Stop
@@ -568,7 +568,7 @@ namespace Content.Client.Wires.UI
                     };
                 }
 
-                var font = resourceCache.GetFont("/Fonts/Boxfont-round/Boxfont Round.ttf", 12);
+                var font = resourceCache.GetFont("/Fonts/_Everwood/supernatural.ttf", 12); // Everwood EDIT
 
                 var hBox = new BoxContainer
                 {

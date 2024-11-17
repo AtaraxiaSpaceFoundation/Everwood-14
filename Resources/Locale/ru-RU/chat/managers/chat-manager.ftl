@@ -19,27 +19,27 @@ chat-manager-no-such-channel =  Нет канала с ключем '{$key}'!
 chat-manager-whisper-headset-on-message = Вы не можете шептать в радио!
 
 chat-manager-server-wrap-message = СЕРВЕР: { $message }
-chat-manager-sender-announcement-wrap-message = [font size=14][bold]Объявление {$sender}:[/font][font size=12]
-                                                {$message}[/bold][/font]
+chat-manager-sender-announcement-wrap-message = [font size=14][Tannenberg]Объявление {$sender}:[/font][font size=12]
+                                                {$message}[/Tannenberg][/font]
 
-chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] [italic]{$verb}[/italic], [font={$fontType} size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font]
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][bold]{$message}[/bold][/BubbleContent]"[/font]
+chat-manager-entity-say-wrap-message = [BubbleHeader][Tannenberg][Name]{$entityName}[/Name][/Tannenberg][/BubbleHeader] [TolkienCyr]{$verb}[/TolkienCyr], [font="Supernatural" size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font]
+chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Tannenberg][Name]{$entityName}[/Name][/Tannenberg][/BubbleHeader] {$verb}, [font="Supernatural" size={$fontSize}]"[BubbleContent][Tannenberg]{$message}[/Tannenberg][/BubbleContent]"[/font]
 
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader]{$entityName}[/BubbleHeader] шепчет,"[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
-chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Некто[/BubbleHeader] шепчет, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
+chat-manager-entity-whisper-wrap-message = [font size=11][TolkienCyr][BubbleHeader]{$entityName}[/BubbleHeader] шепчет,"[BubbleContent]{$message}[/BubbleContent]"[/TolkienCyr][/font]
+chat-manager-entity-whisper-unknown-wrap-message = [font size=11][TolkienCyr][BubbleHeader]Некто[/BubbleHeader] шепчет, "[BubbleContent]{$message}[/BubbleContent]"[/TolkienCyr][/font]
 
 chat-manager-entity-me-wrap-message = { $entityName } { $message }
 
-chat-manager-entity-looc-wrap-message = LOOC: [bold]{$entityName}:[/bold] {$message}
-chat-manager-send-ooc-wrap-message = OOC: [bold]{$playerName}:[/bold] {$message}
+chat-manager-entity-looc-wrap-message = LOOC: [Tannenberg]{$entityName}:[/Tannenberg] {$message}
+chat-manager-send-ooc-wrap-message = OOC: [Tannenberg]{$playerName}:[/Tannenberg] {$message}
 chat-manager-send-ooc-patron-wrap-message = OOC: [color={$patronColor}]{$playerName}[/color]: {$message}
 
-chat-manager-send-dead-chat-wrap-message = {$deadChannelName}: [bold][BubbleHeader]{$playerName}[/BubbleHeader]:[/bold] [BubbleContent]{$message}[/BubbleContent]
-chat-manager-send-admin-dead-chat-wrap-message = {$adminChannelName}: [bold]([BubbleHeader]{$userName}[/BubbleHeader]):[/bold] [BubbleContent]{$message}[/BubbleContent]
-chat-manager-send-admin-chat-wrap-message = {$adminChannelName}: [bold]{$playerName}:[/bold] {$message}
-chat-manager-send-admin-announcement-wrap-message = [bold]{$adminChannelName}: {$message}[/bold]
+chat-manager-send-dead-chat-wrap-message = {$deadChannelName}: [Tannenberg][BubbleHeader]{$playerName}[/BubbleHeader]:[/Tannenberg] [BubbleContent]{$message}[/BubbleContent]
+chat-manager-send-admin-dead-chat-wrap-message = {$adminChannelName}: [Tannenberg]([BubbleHeader]{$userName}[/BubbleHeader]):[/Tannenberg] [BubbleContent]{$message}[/BubbleContent]
+chat-manager-send-admin-chat-wrap-message = {$adminChannelName}: [Tannenberg]{$playerName}:[/Tannenberg] {$message}
+chat-manager-send-admin-announcement-wrap-message = [Tannenberg]{$adminChannelName}: {$message}[/Tannenberg]
 
-chat-manager-send-hook-ooc-wrap-message = OOC: [bold](D){$senderName}:[/bold] {$message}
+chat-manager-send-hook-ooc-wrap-message = OOC: [Tannenberg](D){$senderName}:[/Tannenberg] {$message}
 
 chat-manager-dead-channel-name = МЁРТВЫЕ
 chat-manager-admin-channel-name = АДМИН
