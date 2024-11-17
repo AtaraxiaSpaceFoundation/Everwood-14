@@ -188,7 +188,7 @@ namespace Content.Client.Lobby
             if (_gameTicker.ServerInfoBlob != null)
                 Lobby!.ServerInfo.SetInfoBlob(_gameTicker.ServerInfoBlob);
 
-            Lobby!.LabelName.SetMarkup("[font=\"FallenAngel\" size=45] Everwood [/font]"); // WD EDIT | Everwood EDIT
+            Lobby!.LabelName.SetMarkup("[font=\"FallenAngel\" size=45] Everwood [/font]"); // Everwood EDIT
             Lobby!.ChangelogLabel.SetMarkup(Loc.GetString("ui-lobby-changelog")); // WD EDIT
         }
 

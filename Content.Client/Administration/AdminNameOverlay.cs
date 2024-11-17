@@ -24,7 +24,7 @@ namespace Content.Client.Administration
             _eyeManager = eyeManager;
             _entityLookup = entityLookup;
             ZIndex = 200;
-            _font = new VectorFont(resourceCache.GetResource<FontResource>("/Fonts/_Everwood/medieval.ttf"), 10); // Everwood EDIT
+            _font = new VectorFont(resourceCache.GetResource<FontResource>("/Fonts/_Everwood/supernatural.ttf"), 10); // Everwood EDIT
         }
 
         public override OverlaySpace Space => OverlaySpace.ScreenSpace;

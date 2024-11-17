@@ -26,9 +26,9 @@ public sealed class PopupUIController : UIController, IOnStateEntered<GameplaySt
         base.Initialize();
         var cache = IoCManager.Resolve<IResourceCache>();
 
-        _smallFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/_Everwood/medieval.ttf"), 10);// Everwood EDIT START
-        _mediumFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/_Everwood/medieval.ttf"), 12);
-        _largeFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/_Everwood/medieval.ttf"), 14); // Everwood EDIT END
+        _smallFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/_Everwood/supernatural.ttf"), 10);// Everwood EDIT START
+        _mediumFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/_Everwood/supernatural.ttf"), 12);
+        _largeFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/_Everwood/supernatural.ttf"), 14); // Everwood EDIT END
     }
 
     public void OnStateEntered(GameplayState state)
