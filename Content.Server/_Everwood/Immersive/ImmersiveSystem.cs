@@ -8,6 +8,7 @@ using Content.Shared.Humanoid;
 using Content.Shared.Movement.Components;
 using Robust.Shared.Configuration;
 using Robust.Shared.Console;
+using Robust.Shared.GameObjects;
 
 namespace Content.Server.Everwood.Immersive;
 
@@ -18,9 +19,8 @@ public sealed class ImmersiveSystem : EntitySystem
     [Dependency] private readonly IConsoleHost _console = default!;
     [Dependency] private readonly IAdminLogManager _adminLog = default!;
 
-
     private bool _immersiveEnabled;
-    private const float TelescopeDivisor = 0.4f; // 2 tiles further than normal
+    private const float TelescopeDivisor = 0.8f; // 2 tiles further than normal
     private const float TelescopeLerpAmount = 0.1f; // Looks nice.
 
     private EntityQuery<ContentEyeComponent> _eyeQuery;
@@ -30,9 +30,9 @@ public sealed class ImmersiveSystem : EntitySystem
         base.Initialize();
         SubscribeLocalEvent<ImmersiveComponent, MapInitEvent>(OnPlayerSpawn);
 
-        Subs.CVar(_configurationManager, CCVars.ImmersiveEnabled, OnValueChanged, true);
+        Subs.CVar(_configurationManager, EverwoodCCVars.ImmersiveEnabled, OnValueChanged, true);
 
-        _console.RegisterCommand("setImmersive_bkm", SetImmersiveCommand);
+        _console.RegisterCommand("setImmersive", SetImmersiveCommand);
         _eyeQuery = GetEntityQuery<ContentEyeComponent>();
     }
 
@@ -52,7 +52,7 @@ public sealed class ImmersiveSystem : EntitySystem
     [AdminCommand(AdminFlags.Fun)]
     private void SetImmersiveCommand(IConsoleShell shell, string str, string[] args)
     {
-        _configurationManager.SetCVar(CCVars.ImmersiveEnabled, !_immersiveEnabled);
+        _configurationManager.SetCVar(EverwoodCCVars.ImmersiveEnabled, !_immersiveEnabled);
         shell.WriteLine($"Immersive set in {_immersiveEnabled}");
         _adminLog.Add(LogType.AdminMessage,
             LogImpact.Extreme,
