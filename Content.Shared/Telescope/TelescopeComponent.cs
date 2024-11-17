@@ -9,7 +9,7 @@ public sealed partial class TelescopeComponent : Component
     public float Divisor = 0.1f;
 
     [DataField, AutoNetworkedField]
-    public float LerpAmount = 0.1f;
+    public float LerpAmount = 0.05f;
 
     [ViewVariables]
     public EntityUid? LastEntity;
